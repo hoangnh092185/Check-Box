@@ -10,6 +10,20 @@
   </head>
   <body>
     <div class="container">
+      <h1>Potluck BBQ List</h1><br>
+
+      <h1>Appetizer</h1>
+
+      <form id="survey" action="demo_form.asp">
+        <!-- checkbox begin -->
+        <div class="checkbox">
+          <label><input type="checkbox" name="checkboxselect" value="snack" checked> I have snack.</label><br>
+          <label><input type="checkbox" name="checkboxselect" value="beer"> I have beer.</label><br>
+          <label><input type="checkbox" name="checkboxselect" value="fruit"> I have fruit.</label><br>
+        </div>
+      <!-- checkbox end -->
+      <!-- radio button beggin -->
+      <h1>Icecream</h1>
       <div class="radio">
         <label><input type="radio" name="flavor" value="chocolate" checked>Chocolate</label>
       </div>
@@ -19,6 +33,41 @@
       <div class="radio">
         <label><input type="radio" name="flavor" value="cookiesandcream">Cookies & Cream</label>
       </div>
+      <!-- radio button end -->
+      <!-- date beggin -->
+      <div class="form-group">
+        <h1>Date available</h1>
+  <label for="born">Date of birth:</label>
+  <input id="born" class="form-control" type="date">
+</div>
+<!-- date end -->
+<!-- color begin -->
+<div class="form-group">
+  <h1>String color</h1>
+  <label for="color">What is your favorite color?</label>
+  <input id="color" class="form-control" type="color">
+</div>
+<!-- color end -->
+<button id="submitbutton"type="submit" name="button"class="btn">Submit</button>
+</form>
+    </div>
+
+    <div class="outputText">
+      <p>
+        I'm coming to your BBQ, and I'm bringing:
+        <ul>
+          <li>
+          <p>
+            <span class="appetizer"></span></li>
+            <span class="appetizer"></span></li>
+            <span class="appetizer"></span></li>
+          </p>
+          <li><span class="icecream"></span></li>
+          <li><span class="dateavailable"></span></li>
+          <li><span class="stringcolor"></span></li>
+        </ul>
+      </p>
+
     </div>
   </body>
 </html>
