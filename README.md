@@ -6,11 +6,13 @@
 
 ## Description
 
-Uses html,Javascript,jquery,bootstrap to creates webpage user interface.
+ A simple party plan that would take user input and the info is store within the web browser. 
 
 ## Setup/Installation Requirements
 
-* Just need a web browser
+* Git clone this repository. 
+
+You should be able to run this repository on any web browser.
 
 ## Technologies Used
 
